@@ -41,7 +41,10 @@ Memory in Vision-Language Models
 │   └── 7.2 Conversational Memory
 └── 8. Virtual-Environment Interaction
     ├── 8.1 Open-World Agents
-    └── 8.2 GUI Agents (Web / Mobile / Computer)
+    └── 8.2 GUI Agents
+        ├── Web agents
+        ├── Mobile agents
+        └── Computer agents
 ```
 
 ---
@@ -166,9 +169,8 @@ Memory in Vision-Language Models
 ---
 
 ### 2. Image Reasoning & Description
-
-> See [Benchmarks → Image Reasoning & Description](#image-reasoning--description-1) for relevant evaluation datasets.
-
+#### 2.1 Multi-image Reasoning
+#### 2.2 Image Captioning
 ---
 
 ### 3. Continual Learning
@@ -314,19 +316,7 @@ Memory in Vision-Language Models
 
 #### 6.1 Episodic Retrieval
 
-- [Ego4D: Around the World in 3,000 Hours of Egocentric Video](https://arxiv.org/abs/2110.07058)
-- [AMEGO: Active Memory from long EGOcentric videos](https://arxiv.org/abs/2409.10917)
-- [MM-Ego: Towards Building Egocentric Multimodal LLMs for Video QA](https://arxiv.org/abs/2410.07177)
-- [EgoMemReason: A Memory-Driven Reasoning Benchmark for Long-Horizon Egocentric Video Understanding](https://arxiv.org/abs/2605.09874)
-- [EGOSTREAM: A Diagnostic Benchmark for Streaming Episodic Memory in Egocentric Vision](https://arxiv.org/abs/2605.31557)
-- [SuperMemory-VQA: An Egocentric Visual Question Answering Dataset for Long-Horizon Memory in AI Assistant Settings](https://arxiv.org/abs/2606.00825)
-- [Ego-Grounding for Personalized Question-Answering in Egocentric Videos](https://arxiv.org/abs/2604.01966)
-- [EgoIntrospect: An Egocentric Dataset and Benchmark for User-Centric Internal State Reasoning](https://arxiv.org/abs/2605.17262)
-
 #### 6.2 Wearable Assistants
-
-- [TeleEgo: Benchmarking Egocentric AI Assistants in the Wild](https://arxiv.org/abs/2510.23981)
-- [EgoLife: Towards Egocentric Life Assistant](https://arxiv.org/html/2503.03803v1)
 
 ---
 
@@ -334,16 +324,7 @@ Memory in Vision-Language Models
 
 #### 7.1 Concept Personalization
 
-- [MyVLM: Personalizing VLMs for User-Specific Queries](https://arxiv.org/abs/2403.14599)
-- [Yo'LLaVA: Your Personalized Language and Vision Assistant](https://arxiv.org/abs/2406.09400)
-- [MC-LLaVA: Multi-Concept Personalized Vision-Language Model](https://arxiv.org/abs/2411.11706)
-- [Contextualized Visual Personalization in Vision-Language Models](https://arxiv.org/abs/2602.03454)
-
 #### 7.2 Conversational Memory
-
-- [PersonaVLM: Long-Term Personalized Multimodal LLMs](https://arxiv.org/abs/2604.13074)
-- [According to Me: Long-Term Personalized Referential Memory QA](https://arxiv.org/abs/2603.01990)
-- [TAMEing Long Contexts in Personalization: Towards Training-Free and State-Aware MLLM Personalized Assistant](https://arxiv.org/abs/2512.21616)
 
 ---
 
@@ -351,15 +332,7 @@ Memory in Vision-Language Models
 
 #### 8.1 Open-World Agents
 
-- [MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents](https://arxiv.org/abs/2601.05215)
-- [MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft](https://arxiv.org/abs/2605.30931)
-- [MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks](https://arxiv.org/abs/2602.16313)
-- [MemGym: a Long-Horizon Memory Environment for LLM Agents](https://arxiv.org/abs/2605.20833)
-
 #### 8.2 GUI Agents
-
-- [EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents](https://arxiv.org/abs/2601.16690)
-- [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075)
 
 ---
 
