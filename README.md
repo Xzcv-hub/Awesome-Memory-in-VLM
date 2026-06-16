@@ -271,6 +271,8 @@ Memory in Vision-Language Models
 - [MEM: Multi-Scale Embodied Memory for Vision Language Action Models](https://arxiv.org/abs/2603.03596)
 - [ReMem-VLA: Empowering Vision-Language-Action Model with Memory via Dual-Level Recurrent Queries](https://arxiv.org/abs/2603.12942)
 
+#### 4.3 Autonomous Driving
+
 ---
 
 ### 5. Multimodal RAG
