@@ -1,8 +1,8 @@
-# Awesome-Memory-in-VLM
+# Awesome-Memory-in-VLM  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]
 > **Our paper is coming soon:** *Memory in Vision-Language Models: A Survey on 4D Taxonomy, Mechanisms, and Applications*
 ---
 
-## Taxonomy
+## Application Areas
 
 ```
 Memory in Vision-Language Models
