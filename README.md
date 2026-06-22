@@ -170,7 +170,24 @@ Memory in Vision-Language Models
 
 ### 2. Image Reasoning & Description
 #### 2.1 Multi-image Reasoning
+
+- [A Corpus for Reasoning about Natural Language Grounded in Photographs](https://aclanthology.org/P19-1644/) (ACL 2019)
+- [Visually Grounded Reasoning across Languages and Cultures](https://aclanthology.org/2021.emnlp-main.818/) (EMNLP 2021)
+- [Winoground: Probing Vision and Language Models for Visio-Linguistic Compositionality](https://openaccess.thecvf.com/content/CVPR2022/html/Thrush_Winoground_Probing_Vision_and_Language_Models_for_Visio-Linguistic_Compositionality_CVPR_2022_paper.html) (CVPR 2022)
+- [Mementos: A Comprehensive Benchmark for Multimodal Large Language Model Reasoning over Image Sequences](https://aclanthology.org/2024.acl-long.25/) (ACL 2024)
+- [BLINK: Multimodal Large Language Models Can See but Not Perceive](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3356_ECCV_2024_paper.php) (ECCV 2024)
+- [MuirBench: A Comprehensive Benchmark for Robust Multi-image Understanding](https://openreview.net/forum?id=TrVYEZtSQH) (ICLR 2025)
+- [MMIU: Multimodal Multi-image Understanding for Evaluating Large Vision-Language Models](https://openreview.net/forum?id=WsgEWL8i0K) (ICLR 2025)
+- [Visual Haystacks: A Vision-Centric Needle-In-A-Haystack Benchmark](https://openreview.net/forum?id=9JCNPFL1f9) (ICLR 2025)
+
 #### 2.2 Image Captioning
+
+- [Attend to You: Personalized Image Captioning With Context Sequence Memory Networks](https://openaccess.thecvf.com/content_cvpr_2017/html/Park_Attend_to_You_CVPR_2017_paper.html) (CVPR 2017)
+- [Meshed-Memory Transformer for Image Captioning](https://openaccess.thecvf.com/content_CVPR_2020/html/Cornia_Meshed-Memory_Transformer_for_Image_Captioning_CVPR_2020_paper.html) (CVPR 2020)
+- [SmallCap: Lightweight Image Captioning Prompted With Retrieval Augmentation](https://openaccess.thecvf.com/content/CVPR2023/html/Ramos_SmallCap_Lightweight_Image_Captioning_Prompted_With_Retrieval_Augmentation_CVPR_2023_paper.html) (CVPR 2023)
+- [With a Little Help from Your Own Past: Prototypical Memory Networks for Image Captioning](https://openaccess.thecvf.com/content/ICCV2023/html/Barraco_With_a_Little_Help_from_Your_Own_Past_Prototypical_Memory_ICCV_2023_paper.html) (ICCV 2023)
+- [EVCap: Retrieval-Augmented Image Captioning with External Visual-Name Memory for Open-World Comprehension](https://openaccess.thecvf.com/content/CVPR2024/html/Li_EVCap_Retrieval-Augmented_Image_Captioning_with_External_Visual-Name_Memory_for_Open-World_CVPR_2024_paper.html) (CVPR 2024)
+
 ---
 
 ### 3. Continual Learning
