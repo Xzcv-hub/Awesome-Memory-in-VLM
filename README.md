@@ -1,5 +1,6 @@
 # Awesome-Memory-in-VLM  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 > **Our paper is coming soon:** *Memory in Vision-Language Models: Taxonomy, Mechanisms, and Applications*
+> This repository was mainly created by Yuner Zhang (Upenn), under the guidance of Shao-Jun Xia. Main contributors include Yizhuo He, Jiashen Liu,  Yifan Jiang, Xiaoyang Chen, Liangxi Liu.
 ---
 
 ## Application Areas
