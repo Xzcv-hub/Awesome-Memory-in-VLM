@@ -1,7 +1,7 @@
 # Awesome-Memory-in-VLM  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![GitHub Stars](https://img.shields.io/github/stars/Xzcv-hub/Awesome-Memory-in-VLM?style=social)](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/stargazers)
 [![License](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](LICENSE)
-[![Papers](https://img.shields.io/badge/Papers-150%2B-green)](#paper-list)
+[![Papers](https://img.shields.io/badge/Papers-350%2B-green)](#paper-list)
 [![Version](https://img.shields.io/badge/Version-v1.0-orange)](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/releases)
 [![DOI](https://img.shields.io/badge/DOI-10.20944%2Fpreprints202607.1539.v1-blue)](https://doi.org/10.20944/preprints202607.1539.v1)
 > **Our paper is in preprint:** *Memory in Vision-Language Models: Taxonomy, Mechanisms, and Applications*
