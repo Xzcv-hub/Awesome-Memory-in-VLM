@@ -5,6 +5,7 @@
 [![Version](https://img.shields.io/badge/Version-v1.0-orange)](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/releases)
 [![DOI](https://img.shields.io/badge/DOI-10.20944%2Fpreprints202607.1539.v1-blue)](https://doi.org/10.20944/preprints202607.1539.v1)
 > **Our paper is in preprint:** *Memory in Vision-Language Models: Taxonomy, Mechanisms, and Applications*
+> 
 > <small><em>The preprint has been online for about a week and has received nearly 200 downloads. We are currently working on version 2.0. Thank you all for sharing it and starring the project!</em></small>
 ---
 
