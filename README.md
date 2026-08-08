@@ -51,7 +51,7 @@ Memory in VLMs has evolved from bounded context and recurrent states toward comp
 Memory is not limited to one model family or task. It supports long-range perception and generation, preserves knowledge during continual learning, grounds retrieval in multimodal evidence, and helps embodied or personalized agents maintain state across long-horizon and multi-session interactions. We group these uses into eight application domains and their key subareas.
 
 <p align="center">
-  <img src="img/application_areas.png" alt="Major application domains of memory in vision-language models" width="72%">
+  <img src="img/application_areas.png" alt="Major application domains of memory in vision-language models" width="55%">
 </p>
 
 <p align="center"><em>Application landscape of memory-enhanced vision-language models.</em></p>
