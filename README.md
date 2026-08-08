@@ -8,6 +8,27 @@
 > **Our paper is in preprint:** *Memory in Vision-Language Models: Taxonomy, Mechanisms, and Applications*
 > 
 > <small><em>The preprint has been online for about a week and has received nearly 300 downloads. We are currently working on version 2.0. If we've missed any relevant papers, we'd love to hear from you. We're also rolling out a dynamic update mechanism. Thank you all for sharing it and starring the project!</em></small>
+
+---
+
+## Contents
+- [Memory Mechanisms: 4D Taxonomy](#memory-mechanisms-4d-taxonomy)
+  - [1. When: Temporal Scope](#1-when-temporal-scope)
+  - [2. Where: Storage Location](#2-where-storage-location)
+  - [3. What: Memory Entities](#3-what-memory-entities)
+  - [4. How: Memory Operations](#4-how-memory-operations)
+- [Application Papers](#application-papers)
+  - [1. Long Video Understanding & Generation](#1-long-video-understanding--generation)
+  - [2. Image Reasoning & Description](#2-image-reasoning--description)
+  - [3. Continual Learning](#3-continual-learning)
+  - [4. Embodied AI](#4-embodied-ai)
+  - [5. Multimodal RAG](#5-multimodal-rag)
+  - [6. Egocentric Vision](#6-egocentric-vision)
+  - [7. Personalized Assistants](#7-personalized-assistants)
+  - [8. Virtual-Environment Interaction](#8-virtual-environment-interaction)
+- [Benchmarks](#benchmarks)
+- [Contributing](#contributing)
+
 ---
 
 ## Memory Mechanisms: 4D Taxonomy
@@ -22,6 +43,7 @@ Memory mechanisms in Vision-Language Models can be characterized along four comp
 > **Note:** These dimensions are orthogonal. A single method may therefore appear in multiple categories.
 
 ```
+
 Memory in Vision-Language Models
 ├── 1. When: Temporal Scope
 │   ├── 1.1 Transient Memory
@@ -86,23 +108,6 @@ Memory in Vision-Language Models
         ├── Mobile agents
         └── Computer agents
 ```
-
----
-
-## Contents
-- [Memory Mechanisms: 4D Taxonomy](#memory-mechanisms-4d-taxonomy)
-- [Application Papers](#application-papers)
-  - [1. Long Video Understanding & Generation](#1-long-video-understanding--generation)
-  - [2. Image Reasoning & Description](#2-image-reasoning--description)
-  - [3. Continual Learning](#3-continual-learning)
-  - [4. Embodied AI](#4-embodied-ai)
-  - [5. Multimodal RAG](#5-multimodal-rag)
-  - [6. Egocentric Vision](#6-egocentric-vision)
-  - [7. Personalized Assistants](#7-personalized-assistants)
-  - [8. Virtual-Environment Interaction](#8-virtual-environment-interaction)
-- [Benchmarks](#benchmarks)
-- [Contributing](#contributing)
-
 ---
 ## Memory Mechanisms: 4D Taxonomy
 
@@ -113,20 +118,20 @@ Memory in Vision-Language Models
 
 Memory that remains available primarily within the current inference or active context.
 
-- VideoBERT: A Joint Model for Video and Language Representation Learning (2019)
-- Less Is More: ClipBERT for Video-and-Language Learning via Sparse Sampling (2021)
-- Flamingo: a Visual Language Model for Few-Shot Learning (2022)
-- Long Context Transfer from Language to Vision (2025)
-- Long-VITA: Scaling Large Multi-modal Models to 1 Million Tokens with Leading Short-Context Accuracy (2025)
-- LongVILA: Scaling Long-Context Visual Language Models for Long Videos (2025)
-- Video-XL: Extra-Long Vision Language Model for Hour-Scale Video Understanding (2025)
-- MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding (2024)
-- LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference (2024)
-- MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding (2025)
-- StreamChat: Chatting with Streaming Video (2024)
-- AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models (2025)
-- LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding (2025)
-- VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling (2025)
+- [VideoBERT: A Joint Model for Video and Language Representation Learning](https://arxiv.org/abs/1904.01766) (2019)
+- [Less Is More: ClipBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/abs/2102.06183) (2021)
+- [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) (2022)
+- [Long Context Transfer from Language to Vision](https://arxiv.org/abs/2406.16852) (2025)
+- [Long-VITA: Scaling Large Multi-modal Models to 1 Million Tokens with Leading Short-Context Accuracy](https://arxiv.org/abs/2502.05177) (2025)
+- [LongVILA: Scaling Long-Context Visual Language Models for Long Videos](https://arxiv.org/abs/2408.10188) (2025)
+- [Video-XL: Extra-Long Vision Language Model for Hour-Scale Video Understanding](https://arxiv.org/abs/2409.14485) (2025)
+- [MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726) (2024)
+- [LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference](https://arxiv.org/abs/2406.18139) (2024)
+- [MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding](https://arxiv.org/abs/2506.15724) (2025)
+- [StreamChat: Chatting with Streaming Video](https://arxiv.org/abs/2412.08646) (2024)
+- [AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models](https://arxiv.org/abs/2501.15021) (2025)
+- [LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding](https://arxiv.org/abs/2410.17434) (2025)
+- [VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling](https://arxiv.org/abs/2501.00574) (2025)
 
 </details>
 
@@ -135,19 +140,19 @@ Memory that remains available primarily within the current inference or active c
 
 Memory that preserves interaction-specific information across multiple observations, turns, or decision steps within an episode.
 
-- VD-BERT: A Unified Vision and Dialog Transformer with BERT (2020)
-- Multimodal Dialogue State Tracking (2022)
-- RecFormer: Recurrent Multi-modal Transformer with History-Aware Contrastive Learning for Visual Dialog (2023)
-- MMCR: Advancing Visual Language Model in Multimodal Multi-Turn Contextual Reasoning (2025)
-- Taking Notes Brings Focus: Towards Multi-Turn Multimodal Dialogue Learning (2025)
-- VideoLLM-online: Online Video Large Language Model for Streaming Video (2024)
-- Streaming Long Video Understanding with Large Language Models (2024)
-- Vision-Dialog Navigation by Exploring Cross-modal Memory (2020)
-- History Aware Multimodal Transformer for Vision-and-Language Navigation (2021)
-- Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation (2022)
-- ETPNav: Evolving Topological Planning for Vision-Language Navigation in Continuous Environments (2025)
-- VideoLLaMB: Long-Context Video Understanding with Recurrent Memory Bridges (2024)
-- Mem4Nav: Boosting Vision-and-Language Navigation with Memory (2025)
+- [VD-BERT: A Unified Vision and Dialog Transformer with BERT](https://arxiv.org/abs/2004.13278) (2020)
+- [Multimodal Dialogue State Tracking](https://arxiv.org/abs/2206.07898) (2022)
+- [RecFormer: Recurrent Multi-modal Transformer with History-Aware Contrastive Learning for Visual Dialog](https://openreview.net/forum?id=w7mNLHn8U1) (2023)
+- [MMCR: Advancing Visual Language Model in Multimodal Multi-Turn Contextual Reasoning](https://arxiv.org/abs/2503.18533) (2025)
+- [Taking Notes Brings Focus: Towards Multi-Turn Multimodal Dialogue Learning](https://arxiv.org/abs/2503.07002) (2025)
+- [VideoLLM-online: Online Video Large Language Model for Streaming Video](https://arxiv.org/abs/2406.11816) (2024)
+- [Streaming Long Video Understanding with Large Language Models](https://arxiv.org/abs/2405.16009) (2024)
+- [Vision-Dialog Navigation by Exploring Cross-modal Memory](https://arxiv.org/abs/2003.06745) (2020)
+- [History Aware Multimodal Transformer for Vision-and-Language Navigation](https://arxiv.org/abs/2110.13309) (2021)
+- [Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation](https://arxiv.org/abs/2202.11742) (2022)
+- [ETPNav: Evolving Topological Planning for Vision-Language Navigation in Continuous Environments](https://arxiv.org/abs/2304.03047) (2025)
+- [VideoLLaMB: Long-Context Video Understanding with Recurrent Memory Bridges](https://arxiv.org/abs/2409.01071) (2024)
+- [Mem4Nav: Boosting Vision-and-Language Navigation with Memory](https://arxiv.org/abs/2506.19433) (2025)
 
 </details>
 
@@ -156,21 +161,21 @@ Memory that preserves interaction-specific information across multiple observati
 
 Memory that survives beyond an individual interaction and can be reused across future sessions or tasks.
 
-- REALM: Retrieval-Augmented Language Model Pre-Training (2020)
-- Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)
-- MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text (2022)
-- Generative Agents: Interactive Simulacra of Human Behavior (2023)
-- AUGUSTUS: LLM-Driven Contextualized User Memory in Personalized Multimodal Agents (2025)
-- ELLA: Embodied Social Agents with Lifelong Memory (2025)
-- Voyager: An Open-Ended Embodied Agent with Large Language Models (2024)
-- LifelongMemory: Leveraging LLMs for Answering Queries in Egocentric Videos (2023)
-- KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems (2025)
-- ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation (2025)
-- RoboOS-NeXT: A Unified Memory-based Framework for Lifelong, Scalable, and Robust Multi-Robot Collaboration (2025)
-- RoboMemory: A Brain-Inspired Multi-Memory Agentic Framework for Lifelong Learning (2025)
-- AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents (2026)
-- Learning Without Forgetting for Vision-Language Models (2025)
-- Memory-Space Visual Prompting for Efficient Vision-Language Fine-Tuning (2024)
+- [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) (2020)
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) (2020)
+- [MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text](https://arxiv.org/abs/2210.02928) (2022)
+- [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) (2023)
+- [AUGUSTUS: LLM-Driven Contextualized User Memory in Personalized Multimodal Agents](https://arxiv.org/abs/2510.15261) (2025)
+- [ELLA: Embodied Social Agents with Lifelong Memory](https://arxiv.org/abs/2506.24019) (2025)
+- [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) (2024)
+- [LifelongMemory: Leveraging LLMs for Answering Queries in Egocentric Videos](https://arxiv.org/abs/2312.05269) (2023)
+- [KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems](https://arxiv.org/abs/2409.14908) (2025)
+- [ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation](https://arxiv.org/abs/2409.13682) (2025)
+- [RoboOS-NeXT: A Unified Memory-based Framework for Lifelong, Scalable, and Robust Multi-Robot Collaboration](https://arxiv.org/abs/2510.26536) (2025)
+- [RoboMemory: A Brain-Inspired Multi-Memory Agentic Framework for Lifelong Learning](https://arxiv.org/abs/2508.01415) (2025)
+- [AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents](https://arxiv.org/abs/2605.17933) (2026)
+- [Learning Without Forgetting for Vision-Language Models](https://arxiv.org/abs/2305.19270) (2025)
+- [Memory-Space Visual Prompting for Efficient Vision-Language Fine-Tuning](https://arxiv.org/abs/2405.05615) (2024)
 
 </details>
 
@@ -182,23 +187,23 @@ Memory that survives beyond an individual interaction and can be reused across f
 
 Memory represented inside model computation, including latent tokens, hidden states, parameters, and KV caches.
 
-- Perceiver: General Perception with Iterative Attention (2021)
-- BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models (2023)
-- TokenLearner: What Can 8 Learned Tokens Do for Images and Videos? (2021)
-- Fine-tuning Image Transformers using Learnable Memory (2022)
-- Perceiver IO: A General Architecture for Structured Inputs and Outputs (2022)
-- InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning (2023)
-- mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality (2023)
-- MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning (2020)
-- Multimodal Transformer with Variable-Length Memory for Vision-and-Language Navigation (2022)
-- Learning Without Forgetting for Vision-Language Models (2025)
-- LLaMA-Adapter: Efficient Fine-tuning of Large Language Models with Zero-initialized Attention (2024)
-- Memory-Space Visual Prompting for Efficient Vision-Language Fine-Tuning (2024)
-- MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding (2024)
-- VideoLLaMB: Long-Context Video Understanding with Recurrent Memory Bridges (2024)
-- LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference (2024)
-- MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding (2025)
-- AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models (2025)
+- [Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206) (2021)
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) (2023)
+- [TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297) (2021)
+- [Fine-tuning Image Transformers using Learnable Memory](https://arxiv.org/abs/2203.15243) (2022)
+- [Perceiver IO: A General Architecture for Structured Inputs and Outputs](https://arxiv.org/abs/2107.14795) (2022)
+- [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500) (2023)
+- [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178) (2023)
+- [MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning](https://arxiv.org/abs/2005.05402) (2020)
+- [Multimodal Transformer with Variable-Length Memory for Vision-and-Language Navigation](https://arxiv.org/abs/2111.05759) (2022)
+- [Learning Without Forgetting for Vision-Language Models](https://arxiv.org/abs/2305.19270) (2025)
+- [LLaMA-Adapter: Efficient Fine-tuning of Large Language Models with Zero-initialized Attention](https://arxiv.org/abs/2303.16199) (2024)
+- [Memory-Space Visual Prompting for Efficient Vision-Language Fine-Tuning](https://arxiv.org/abs/2405.05615) (2024)
+- [MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726) (2024)
+- [VideoLLaMB: Long-Context Video Understanding with Recurrent Memory Bridges](https://arxiv.org/abs/2409.01071) (2024)
+- [LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference](https://arxiv.org/abs/2406.18139) (2024)
+- [MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding](https://arxiv.org/abs/2506.15724) (2025)
+- [AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models](https://arxiv.org/abs/2501.15021) (2025)
 
 </details>
 
@@ -207,26 +212,26 @@ Memory represented inside model computation, including latent tokens, hidden sta
 
 Memory stored outside the model in independently addressable repositories, knowledge bases, retrieval indices, or experience stores.
 
-- REALM: Retrieval-Augmented Language Model Pre-Training (2020)
-- Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)
-- MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text (2022)
-- Reveal: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory (2023)
-- KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain Knowledge-Based VQA (2021)
-- KAT: A Knowledge Augmented Transformer for Vision-and-Language (2022)
-- Retrieval-Augmented Multimodal Language Modeling (2023)
-- Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training (2022)
-- Rethinking Visual Prompting for Multimodal Large Language Models with External Knowledge (2024)
-- RAG-Anything: All-in-One RAG Framework (2025)
-- MegaRAG: Multimodal Knowledge Graph Based Retrieval-Augmented Generation (2025)
-- MuKA: Multimodal Knowledge Augmented Visual Information-Seeking (2025)
-- SearchLVLMs: A Plug-and-Play Framework for Augmenting Large Vision-Language Models by Searching Up-to-Date Internet Knowledge (2024)
-- V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs (2024)
-- R4: Retrieval-Augmented Reasoning for Multimodal Models (2025)
-- VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents (2025)
-- End-to-End Optimization for Multimodal Retrieval-Augmented Generation via Reward Backpropagation (2025)
-- LifelongMemory: Leveraging LLMs for Answering Queries in Egocentric Videos (2023)
-- ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation (2025)
-- AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents (2026)
+- [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) (2020)
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) (2020)
+- [MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text](https://arxiv.org/abs/2210.02928) (2022)
+- [Reveal: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory](https://arxiv.org/abs/2212.05221) (2023)
+- [KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain Knowledge-Based VQA](https://arxiv.org/abs/2012.11014) (2021)
+- [KAT: A Knowledge Augmented Transformer for Vision-and-Language](https://arxiv.org/abs/2112.08614) (2022)
+- [Retrieval-Augmented Multimodal Language Modeling](https://arxiv.org/abs/2211.12561) (2023)
+- [Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training](https://arxiv.org/abs/2210.08773) (2022)
+- [Rethinking Visual Prompting for Multimodal Large Language Models with External Knowledge](https://arxiv.org/abs/2407.04681) (2024)
+- [RAG-Anything: All-in-One RAG Framework](https://arxiv.org/abs/2510.12323) (2025)
+- [MegaRAG: Multimodal Knowledge Graph Based Retrieval-Augmented Generation](https://arxiv.org/abs/2512.20626) (2025)
+- [MuKA: Multimodal Knowledge Augmented Visual Information-Seeking](https://aclanthology.org/2025.coling-main.647/) (2025)
+- [SearchLVLMs: A Plug-and-Play Framework for Augmenting Large Vision-Language Models by Searching Up-to-Date Internet Knowledge](https://arxiv.org/abs/2405.14554) (2024)
+- [V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs](https://arxiv.org/abs/2312.14135) (2024)
+- [R4: Retrieval-Augmented Reasoning for Multimodal Models](https://arxiv.org/abs/2512.15940) (2025)
+- [VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents](https://arxiv.org/abs/2410.10594) (2025)
+- [End-to-End Optimization for Multimodal Retrieval-Augmented Generation via Reward Backpropagation](https://aclanthology.org/2025.findings-emnlp.24/) (2025)
+- [LifelongMemory: Leveraging LLMs for Answering Queries in Egocentric Videos](https://arxiv.org/abs/2312.05269) (2023)
+- [ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation](https://arxiv.org/abs/2409.13682) (2025)
+- [AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents](https://arxiv.org/abs/2605.17933) (2026)
 
 </details>
 
@@ -238,16 +243,16 @@ Memory stored outside the model in independently addressable repositories, knowl
 
 Memory that retains information close to the original multimodal input, such as frames, clips, or visual-language tokens.
 
-- VideoBERT: A Joint Model for Video and Language Representation Learning (2019)
-- Less Is More: ClipBERT for Video-and-Language Learning via Sparse Sampling (2021)
-- Flamingo: a Visual Language Model for Few-Shot Learning (2022)
-- Long Context Transfer from Language to Vision (2025)
-- Long-VITA: Scaling Large Multi-modal Models to 1 Million Tokens with Leading Short-Context Accuracy (2025)
-- LongVILA: Scaling Long-Context Visual Language Models for Long Videos (2025)
-- Video-XL: Extra-Long Vision Language Model for Hour-Scale Video Understanding (2025)
-- HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training (2020)
-- VideoLLM-online: Online Video Large Language Model for Streaming Video (2024)
-- StreamChat: Chatting with Streaming Video (2024)
+- [VideoBERT: A Joint Model for Video and Language Representation Learning](https://arxiv.org/abs/1904.01766) (2019)
+- [Less Is More: ClipBERT for Video-and-Language Learning via Sparse Sampling](https://arxiv.org/abs/2102.06183) (2021)
+- [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) (2022)
+- [Long Context Transfer from Language to Vision](https://arxiv.org/abs/2406.16852) (2025)
+- [Long-VITA: Scaling Large Multi-modal Models to 1 Million Tokens with Leading Short-Context Accuracy](https://arxiv.org/abs/2502.05177) (2025)
+- [LongVILA: Scaling Long-Context Visual Language Models for Long Videos](https://arxiv.org/abs/2408.10188) (2025)
+- [Video-XL: Extra-Long Vision Language Model for Hour-Scale Video Understanding](https://arxiv.org/abs/2409.14485) (2025)
+- [HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training](https://arxiv.org/abs/2005.00200) (2020)
+- [VideoLLM-online: Online Video Large Language Model for Streaming Video](https://arxiv.org/abs/2406.11816) (2024)
+- [StreamChat: Chatting with Streaming Video](https://arxiv.org/abs/2412.08646) (2024)
 
 </details>
 
@@ -256,19 +261,19 @@ Memory that retains information close to the original multimodal input, such as 
 
 Memory organized into identifiable events, dialogue turns, trajectories, route steps, or temporally structured records.
 
-- VD-BERT: A Unified Vision and Dialog Transformer with BERT (2020)
-- Multimodal Dialogue State Tracking (2022)
-- RecFormer: Recurrent Multi-modal Transformer with History-Aware Contrastive Learning for Visual Dialog (2023)
-- MMCR: Advancing Visual Language Model in Multimodal Multi-Turn Contextual Reasoning (2025)
-- Taking Notes Brings Focus: Towards Multi-Turn Multimodal Dialogue Learning (2025)
-- Vision-Dialog Navigation by Exploring Cross-modal Memory (2020)
-- History Aware Multimodal Transformer for Vision-and-Language Navigation (2021)
-- Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation (2022)
-- ETPNav: Evolving Topological Planning for Vision-Language Navigation in Continuous Environments (2025)
-- LifelongMemory: Leveraging LLMs for Answering Queries in Egocentric Videos (2023)
-- Generative Agents: Interactive Simulacra of Human Behavior (2023)
-- KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems (2025)
-- ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation (2025)
+- [VD-BERT: A Unified Vision and Dialog Transformer with BERT](https://arxiv.org/abs/2004.13278) (2020)
+- [Multimodal Dialogue State Tracking](https://arxiv.org/abs/2206.07898) (2022)
+- [RecFormer: Recurrent Multi-modal Transformer with History-Aware Contrastive Learning for Visual Dialog](https://openreview.net/forum?id=w7mNLHn8U1) (2023)
+- [MMCR: Advancing Visual Language Model in Multimodal Multi-Turn Contextual Reasoning](https://arxiv.org/abs/2503.18533) (2025)
+- [Taking Notes Brings Focus: Towards Multi-Turn Multimodal Dialogue Learning](https://arxiv.org/abs/2503.07002) (2025)
+- [Vision-Dialog Navigation by Exploring Cross-modal Memory](https://arxiv.org/abs/2003.06745) (2020)
+- [History Aware Multimodal Transformer for Vision-and-Language Navigation](https://arxiv.org/abs/2110.13309) (2021)
+- [Think Global, Act Local: Dual-scale Graph Transformer for Vision-and-Language Navigation](https://arxiv.org/abs/2202.11742) (2022)
+- [ETPNav: Evolving Topological Planning for Vision-Language Navigation in Continuous Environments](https://arxiv.org/abs/2304.03047) (2025)
+- [LifelongMemory: Leveraging LLMs for Answering Queries in Egocentric Videos](https://arxiv.org/abs/2312.05269) (2023)
+- [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) (2023)
+- [KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems](https://arxiv.org/abs/2409.14908) (2025)
+- [ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation](https://arxiv.org/abs/2409.13682) (2025)
 
 </details>
 
@@ -277,22 +282,22 @@ Memory organized into identifiable events, dialogue turns, trajectories, route s
 
 Memory containing reusable facts, concepts, preferences, symbolic relations, summaries, or generalized knowledge.
 
-- REALM: Retrieval-Augmented Language Model Pre-Training (2020)
-- Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)
-- MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text (2022)
-- Reveal: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory (2023)
-- KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain Knowledge-Based VQA (2021)
-- KAT: A Knowledge Augmented Transformer for Vision-and-Language (2022)
-- Retrieval-Augmented Multimodal Language Modeling (2023)
-- RAG-Anything: All-in-One RAG Framework (2025)
-- MegaRAG: Multimodal Knowledge Graph Based Retrieval-Augmented Generation (2025)
-- MuKA: Multimodal Knowledge Augmented Visual Information-Seeking (2025)
-- SearchLVLMs: A Plug-and-Play Framework for Augmenting Large Vision-Language Models by Searching Up-to-Date Internet Knowledge (2024)
-- AUGUSTUS: LLM-Driven Contextualized User Memory in Personalized Multimodal Agents (2025)
-- ELLA: Embodied Social Agents with Lifelong Memory (2025)
-- AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents (2026)
-- Can We Edit Multimodal Large Language Models? (2023)
-- Unified Knowledge Maintenance for Vision-Language Models (2025)
+- [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) (2020)
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) (2020)
+- [MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text](https://arxiv.org/abs/2210.02928) (2022)
+- [Reveal: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory](https://arxiv.org/abs/2212.05221) (2023)
+- [KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain Knowledge-Based VQA](https://arxiv.org/abs/2012.11014) (2021)
+- [KAT: A Knowledge Augmented Transformer for Vision-and-Language](https://arxiv.org/abs/2112.08614) (2022)
+- [Retrieval-Augmented Multimodal Language Modeling](https://arxiv.org/abs/2211.12561) (2023)
+- [RAG-Anything: All-in-One RAG Framework](https://arxiv.org/abs/2510.12323) (2025)
+- [MegaRAG: Multimodal Knowledge Graph Based Retrieval-Augmented Generation](https://arxiv.org/abs/2512.20626) (2025)
+- [MuKA: Multimodal Knowledge Augmented Visual Information-Seeking](https://aclanthology.org/2025.coling-main.647/) (2025)
+- [SearchLVLMs: A Plug-and-Play Framework for Augmenting Large Vision-Language Models by Searching Up-to-Date Internet Knowledge](https://arxiv.org/abs/2405.14554) (2024)
+- [AUGUSTUS: LLM-Driven Contextualized User Memory in Personalized Multimodal Agents](https://arxiv.org/abs/2510.15261) (2025)
+- [ELLA: Embodied Social Agents with Lifelong Memory](https://arxiv.org/abs/2506.24019) (2025)
+- [AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents](https://arxiv.org/abs/2605.17933) (2026)
+- [Can We Edit Multimodal Large Language Models?](https://arxiv.org/abs/2310.08475) (2023)
+- [Unified Knowledge Maintenance for Vision-Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/32923) (2025)
 
 </details>
 
@@ -301,22 +306,22 @@ Memory containing reusable facts, concepts, preferences, symbolic relations, sum
 
 Memory encoded as compressed neural representations, latent tokens, recurrent states, or cache tensors.
 
-- Perceiver: General Perception with Iterative Attention (2021)
-- BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models (2023)
-- TokenLearner: What Can 8 Learned Tokens Do for Images and Videos? (2021)
-- Fine-tuning Image Transformers using Learnable Memory (2022)
-- Perceiver IO: A General Architecture for Structured Inputs and Outputs (2022)
-- InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning (2023)
-- mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality (2023)
-- MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning (2020)
-- Multimodal Transformer with Variable-Length Memory for Vision-and-Language Navigation (2022)
-- MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding (2024)
-- VideoLLaMB: Long-Context Video Understanding with Recurrent Memory Bridges (2024)
-- LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding (2025)
-- VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling (2025)
-- LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference (2024)
-- MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding (2025)
-- AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models (2025)
+- [Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206) (2021)
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) (2023)
+- [TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297) (2021)
+- [Fine-tuning Image Transformers using Learnable Memory](https://arxiv.org/abs/2203.15243) (2022)
+- [Perceiver IO: A General Architecture for Structured Inputs and Outputs](https://arxiv.org/abs/2107.14795) (2022)
+- [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500) (2023)
+- [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178) (2023)
+- [MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning](https://arxiv.org/abs/2005.05402) (2020)
+- [Multimodal Transformer with Variable-Length Memory for Vision-and-Language Navigation](https://arxiv.org/abs/2111.05759) (2022)
+- [MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726) (2024)
+- [VideoLLaMB: Long-Context Video Understanding with Recurrent Memory Bridges](https://arxiv.org/abs/2409.01071) (2024)
+- [LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding](https://arxiv.org/abs/2410.17434) (2025)
+- [VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling](https://arxiv.org/abs/2501.00574) (2025)
+- [LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference](https://arxiv.org/abs/2406.18139) (2024)
+- [MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding](https://arxiv.org/abs/2506.15724) (2025)
+- [AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models](https://arxiv.org/abs/2501.15021) (2025)
 
 </details>
 
@@ -328,20 +333,20 @@ Memory encoded as compressed neural representations, latent tokens, recurrent st
 
 Mechanisms that admit new multimodal information into a memory-bearing representation.
 
-- HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training (2020)
-- MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning (2020)
-- MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding (2024)
-- VideoLLM-online: Online Video Large Language Model for Streaming Video (2024)
-- Streaming Long Video Understanding with Large Language Models (2024)
-- Flamingo: a Visual Language Model for Few-Shot Learning (2022)
-- Perceiver: General Perception with Iterative Attention (2021)
-- TokenLearner: What Can 8 Learned Tokens Do for Images and Videos? (2021)
-- BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models (2023)
-- InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning (2023)
-- Taking Notes Brings Focus: Towards Multi-Turn Multimodal Dialogue Learning (2025)
-- Generative Agents: Interactive Simulacra of Human Behavior (2023)
-- LLaMA-Adapter: Efficient Fine-tuning of Large Language Models with Zero-initialized Attention (2024)
-- Memory-Space Visual Prompting for Efficient Vision-Language Fine-Tuning (2024)
+- [HERO: Hierarchical Encoder for Video+Language Omni-representation Pre-training](https://arxiv.org/abs/2005.00200) (2020)
+- [MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning](https://arxiv.org/abs/2005.05402) (2020)
+- [MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726) (2024)
+- [VideoLLM-online: Online Video Large Language Model for Streaming Video](https://arxiv.org/abs/2406.11816) (2024)
+- [Streaming Long Video Understanding with Large Language Models](https://arxiv.org/abs/2405.16009) (2024)
+- [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) (2022)
+- [Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206) (2021)
+- [TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?](https://arxiv.org/abs/2106.11297) (2021)
+- [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) (2023)
+- [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500) (2023)
+- [Taking Notes Brings Focus: Towards Multi-Turn Multimodal Dialogue Learning](https://arxiv.org/abs/2503.07002) (2025)
+- [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) (2023)
+- [LLaMA-Adapter: Efficient Fine-tuning of Large Language Models with Zero-initialized Attention](https://arxiv.org/abs/2303.16199) (2024)
+- [Memory-Space Visual Prompting for Efficient Vision-Language Fine-Tuning](https://arxiv.org/abs/2405.05615) (2024)
 
 </details>
 
@@ -350,22 +355,22 @@ Mechanisms that admit new multimodal information into a memory-bearing represent
 
 Mechanisms that compress, organize, index, or stabilize already written memory.
 
-- MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding (2024)
-- LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding (2025)
-- VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling (2025)
-- LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference (2024)
-- MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding (2025)
-- AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models (2025)
-- REALM: Retrieval-Augmented Language Model Pre-Training (2020)
-- Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)
-- MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text (2022)
-- Reveal: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory (2023)
-- VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents (2025)
-- LifelongMemory: Leveraging LLMs for Answering Queries in Egocentric Videos (2023)
-- Mem4Nav: Boosting Vision-and-Language Navigation with Memory (2025)
-- KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems (2025)
-- AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents (2026)
-- RoboMemory: A Brain-Inspired Multi-Memory Agentic Framework for Lifelong Learning (2025)
+- [MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding](https://arxiv.org/abs/2404.05726) (2024)
+- [LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding](https://arxiv.org/abs/2410.17434) (2025)
+- [VideoChat-Flash: Hierarchical Compression for Long-Context Video Modeling](https://arxiv.org/abs/2501.00574) (2025)
+- [LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference](https://arxiv.org/abs/2406.18139) (2024)
+- [MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding](https://arxiv.org/abs/2506.15724) (2025)
+- [AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models](https://arxiv.org/abs/2501.15021) (2025)
+- [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) (2020)
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) (2020)
+- [MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text](https://arxiv.org/abs/2210.02928) (2022)
+- [Reveal: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory](https://arxiv.org/abs/2212.05221) (2023)
+- [VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents](https://arxiv.org/abs/2410.10594) (2025)
+- [LifelongMemory: Leveraging LLMs for Answering Queries in Egocentric Videos](https://arxiv.org/abs/2312.05269) (2023)
+- [Mem4Nav: Boosting Vision-and-Language Navigation with Memory](https://arxiv.org/abs/2506.19433) (2025)
+- [KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems](https://arxiv.org/abs/2409.14908) (2025)
+- [AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents](https://arxiv.org/abs/2605.17933) (2026)
+- [RoboMemory: A Brain-Inspired Multi-Memory Agentic Framework for Lifelong Learning](https://arxiv.org/abs/2508.01415) (2025)
 
 </details>
 
@@ -374,26 +379,26 @@ Mechanisms that compress, organize, index, or stabilize already written memory.
 
 Mechanisms that select previously stored evidence for reasoning, generation, or decision making.
 
-- REALM: Retrieval-Augmented Language Model Pre-Training (2020)
-- Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020)
-- MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text (2022)
-- Reveal: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory (2023)
-- KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain Knowledge-Based VQA (2021)
-- KAT: A Knowledge Augmented Transformer for Vision-and-Language (2022)
-- Retrieval-Augmented Multimodal Language Modeling (2023)
-- Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training (2022)
-- SearchLVLMs: A Plug-and-Play Framework for Augmenting Large Vision-Language Models by Searching Up-to-Date Internet Knowledge (2024)
-- V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs (2024)
-- R4: Retrieval-Augmented Reasoning for Multimodal Models (2025)
-- VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents (2025)
-- End-to-End Optimization for Multimodal Retrieval-Augmented Generation via Reward Backpropagation (2025)
-- RAG-Anything: All-in-One RAG Framework (2025)
-- MegaRAG: Multimodal Knowledge Graph Based Retrieval-Augmented Generation (2025)
-- MuKA: Multimodal Knowledge Augmented Visual Information-Seeking (2025)
-- Generative Agents: Interactive Simulacra of Human Behavior (2023)
-- ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation (2025)
-- Mem4Nav: Boosting Vision-and-Language Navigation with Memory (2025)
-- AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents (2026)
+- [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909) (2020)
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) (2020)
+- [MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text](https://arxiv.org/abs/2210.02928) (2022)
+- [Reveal: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory](https://arxiv.org/abs/2212.05221) (2023)
+- [KRISP: Integrating Implicit and Symbolic Knowledge for Open-Domain Knowledge-Based VQA](https://arxiv.org/abs/2012.11014) (2021)
+- [KAT: A Knowledge Augmented Transformer for Vision-and-Language](https://arxiv.org/abs/2112.08614) (2022)
+- [Retrieval-Augmented Multimodal Language Modeling](https://arxiv.org/abs/2211.12561) (2023)
+- [Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training](https://arxiv.org/abs/2210.08773) (2022)
+- [SearchLVLMs: A Plug-and-Play Framework for Augmenting Large Vision-Language Models by Searching Up-to-Date Internet Knowledge](https://arxiv.org/abs/2405.14554) (2024)
+- [V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs](https://arxiv.org/abs/2312.14135) (2024)
+- [R4: Retrieval-Augmented Reasoning for Multimodal Models](https://arxiv.org/abs/2512.15940) (2025)
+- [VisRAG: Vision-based Retrieval-augmented Generation on Multi-modality Documents](https://arxiv.org/abs/2410.10594) (2025)
+- [End-to-End Optimization for Multimodal Retrieval-Augmented Generation via Reward Backpropagation](https://aclanthology.org/2025.findings-emnlp.24/) (2025)
+- [RAG-Anything: All-in-One RAG Framework](https://arxiv.org/abs/2510.12323) (2025)
+- [MegaRAG: Multimodal Knowledge Graph Based Retrieval-Augmented Generation](https://arxiv.org/abs/2512.20626) (2025)
+- [MuKA: Multimodal Knowledge Augmented Visual Information-Seeking](https://aclanthology.org/2025.coling-main.647/) (2025)
+- [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) (2023)
+- [ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation](https://arxiv.org/abs/2409.13682) (2025)
+- [Mem4Nav: Boosting Vision-and-Language Navigation with Memory](https://arxiv.org/abs/2506.19433) (2025)
+- [AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents](https://arxiv.org/abs/2605.17933) (2026)
 
 </details>
 
@@ -402,20 +407,20 @@ Mechanisms that select previously stored evidence for reasoning, generation, or 
 
 Mechanisms that revise, replace, preserve, or selectively remove existing memory.
 
-- Can We Edit Multimodal Large Language Models? (2023)
-- Unified Knowledge Maintenance for Vision-Language Models (2025)
-- Visual-Oriented Fine-Grained Knowledge Editing for Multi-modal Large Language Models (2024)
-- Learning Without Forgetting for Vision-Language Models (2025)
-- Mind the Interference: Retaining Pre-trained Knowledge in Parameter Efficient Continual Learning of Vision-Language Models (2024)
-- Synthetic Data is an Elegant GIFT for Continual Vision-Language Models (2025)
-- IAP: Improving Continual Learning of Vision-Language Models via Instance-Aware Prompting (2026)
-- LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference (2024)
-- MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding (2025)
-- AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models (2025)
-- StreamChat: Chatting with Streaming Video (2024)
-- VideoLLM-online: Online Video Large Language Model for Streaming Video (2024)
-- KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems (2025)
-- RoboMemory: A Brain-Inspired Multi-Memory Agentic Framework for Lifelong Learning (2025)
+- [Can We Edit Multimodal Large Language Models?](https://arxiv.org/abs/2310.08475) (2023)
+- [Unified Knowledge Maintenance for Vision-Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/32923) (2025)
+- [Visual-Oriented Fine-Grained Knowledge Editing for Multi-modal Large Language Models](https://arxiv.org/abs/2411.12790) (2024)
+- [Learning Without Forgetting for Vision-Language Models](https://arxiv.org/abs/2305.19270) (2025)
+- [Mind the Interference: Retaining Pre-trained Knowledge in Parameter Efficient Continual Learning of Vision-Language Models](https://arxiv.org/abs/2407.05342) (2024)
+- [Synthetic Data is an Elegant GIFT for Continual Vision-Language Models](https://arxiv.org/abs/2503.04229) (2025)
+- [IAP: Improving Continual Learning of Vision-Language Models via Instance-Aware Prompting](https://arxiv.org/abs/2503.20612) (2026)
+- [LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference](https://arxiv.org/abs/2406.18139) (2024)
+- [MadaKV: Adaptive Modality Perception KV Cache Eviction for Efficient Multimodal Long-Context Understanding](https://arxiv.org/abs/2506.15724) (2025)
+- [AKVQ-VL: Attention-Aware KV Cache Adaptive 2-Bit Quantization for Vision-Language Models](https://arxiv.org/abs/2501.15021) (2025)
+- [StreamChat: Chatting with Streaming Video](https://arxiv.org/abs/2412.08646) (2024)
+- [VideoLLM-online: Online Video Large Language Model for Streaming Video](https://arxiv.org/abs/2406.11816) (2024)
+- [KARMA: Augmenting Embodied AI Agents with Long-and-Short Term Memory Systems](https://arxiv.org/abs/2409.14908) (2025)
+- [RoboMemory: A Brain-Inspired Multi-Memory Agentic Framework for Lifelong Learning](https://arxiv.org/abs/2508.01415) (2025)
 
 </details>
 
@@ -645,6 +650,10 @@ Mechanisms that revise, replace, preserve, or selectively remove existing memory
 
 #### 4.3 Autonomous Driving
 
+- [VLP: Vision Language Planning for Autonomous Driving](https://arxiv.org/abs/2401.05577)
+- [LeapVAD: A Leap in Autonomous Driving via Cognitive Perception and Dual-Process Thinking](https://arxiv.org/abs/2501.08168)
+- [MTRDrive: Memory-Tool Synergistic Reasoning for Robust Autonomous Driving in Corner Cases](https://arxiv.org/abs/2509.20843)
+
 ---
 
 ### 5. Multimodal RAG
@@ -690,7 +699,11 @@ Mechanisms that revise, replace, preserve, or selectively remove existing memory
 
 #### 6.1 Episodic Retrieval
 
+- [Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding](https://arxiv.org/abs/2501.00358)
+
 #### 6.2 Wearable Assistants
+
+- [TeleEgo: Benchmarking Egocentric AI Assistants in the Wild](https://arxiv.org/abs/2510.23981)
 
 ---
 
@@ -698,7 +711,13 @@ Mechanisms that revise, replace, preserve, or selectively remove existing memory
 
 #### 7.1 Concept Personalization
 
+- [Retrieval-Augmented Personalization for Multimodal Large Language Models](https://arxiv.org/abs/2410.13360)
+- [Online-PVLM: Advancing Personalized VLMs with Online Concept Learning](https://arxiv.org/abs/2511.20056)
+
 #### 7.2 Conversational Memory
+
+- [M2A: Multimodal Memory Agent with Dual-Layer Hybrid Memory for Long-Term Personalized Interactions](https://arxiv.org/abs/2602.07624)
+- [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736)
 
 ---
 
@@ -706,7 +725,28 @@ Mechanisms that revise, replace, preserve, or selectively remove existing memory
 
 #### 8.1 Open-World Agents
 
+- [JARVIS-1: Open-World Multi-Task Agents with Memory-Augmented Multimodal Language Models](https://arxiv.org/abs/2311.05997)
+- [Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-Based Knowledge and Memory](https://arxiv.org/abs/2305.17144)
+- [Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks](https://arxiv.org/abs/2408.03615)
+
 #### 8.2 GUI Agents
+
+##### Web Agents
+
+- [WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models](https://arxiv.org/abs/2401.13919)
+- [VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought](https://arxiv.org/abs/2406.14596)
+- [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://arxiv.org/abs/2401.13649)
+- [VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks](https://arxiv.org/abs/2410.19100)
+
+##### Mobile Agents
+
+- [Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration](https://arxiv.org/abs/2406.01014)
+- [Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks](https://arxiv.org/abs/2501.11733)
+
+##### Computer Agents
+
+- [Agent S: An Open Agentic Framework that Uses Computers Like a Human](https://arxiv.org/abs/2410.08164)
+- [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326)
 
 ---
 
