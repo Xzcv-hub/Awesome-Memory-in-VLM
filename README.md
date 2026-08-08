@@ -41,7 +41,7 @@ We organize this rapidly growing field through a system-oriented 4D taxonomy: **
 Memory in VLMs has evolved from bounded context and recurrent states toward compressed, retrievable, persistent, and agent-oriented systems. The timeline below places representative methods alongside the broader development of foundation models and traces progress through the four questions that define our taxonomy.
 
 <p align="center">
-  <img src="img/timeline.png" alt="Timeline of representative memory-enabled vision-language models" width="100%">
+  <a href="img/Timeline.pdf"><img src="img/timeline.svg" alt="Timeline of representative memory-enabled vision-language models" width="100%"></a>
 </p>
 
 <p align="center"><em>Representative milestones in memory-enabled VLMs across the When, Where, What, and How dimensions. <a href="img/Timeline.pdf">View the high-resolution PDF</a>.</em></p>
@@ -51,7 +51,7 @@ Memory in VLMs has evolved from bounded context and recurrent states toward comp
 Memory is not limited to one model family or task. It supports long-range perception and generation, preserves knowledge during continual learning, grounds retrieval in multimodal evidence, and helps embodied or personalized agents maintain state across long-horizon and multi-session interactions. We group these uses into eight application domains and their key subareas.
 
 <p align="center">
-  <img src="img/application_areas.png" alt="Major application domains of memory in vision-language models" width="55%">
+  <a href="img/Application.pdf"><img src="img/application_areas.svg" alt="Major application domains of memory in vision-language models" width="55%"></a>
 </p>
 
 <p align="center"><em>Application landscape of memory-enhanced vision-language models. <a href="img/Application.pdf">View the high-resolution PDF</a>.</em></p>
