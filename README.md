@@ -2,6 +2,7 @@
   Awesome-Memory-in-VLM
   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
 </h1>
+
 [![GitHub Stars](https://img.shields.io/github/stars/Xzcv-hub/Awesome-Memory-in-VLM?style=social)](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/stargazers)
 [![License](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](LICENSE)
 [![Papers](https://img.shields.io/badge/Papers-350%2B-green)](#paper-list)
@@ -44,13 +45,13 @@
 
 ---
 
-## Survey at a Glance
+## 🧭 Survey at a Glance
 
 Most vision-language models still process each prompt, clip, or interaction as an isolated episode. Without an explicit way to preserve and reuse prior multimodal information, they struggle with temporal coherence, accumulated knowledge, and reasoning that extends beyond a finite context window. This survey studies how memory turns VLMs from largely stateless predictors into systems that can retain, retrieve, revise, and reuse experience over time.
 
 We organize this rapidly growing field through a system-oriented 4D taxonomy: **When** is information retained, **Where** is it stored, **What** does it represent, and **How** is it written, consolidated, retrieved, updated, or forgotten? This view connects architectural choices with evaluation protocols and real-world applications, while highlighting open challenges in scalability, efficiency, continual adaptation, multimodal grounding, and trustworthy memory management.
 
-## From Context Windows to Persistent Memory
+## 🕰️ From Context Windows to Persistent Memory
 
 Memory in VLMs has evolved from bounded context and recurrent states toward compressed, retrievable, persistent, and agent-oriented systems. The timeline below places representative methods alongside the broader development of foundation models and traces progress through the four questions that define our taxonomy.
 
@@ -60,7 +61,7 @@ Memory in VLMs has evolved from bounded context and recurrent states toward comp
 
 <p align="center"><em>Representative milestones in memory-enabled VLMs across the When, Where, What, and How dimensions.</em></p>
 
-## Where Memory Makes a Difference
+## 🌐 Where Memory Makes a Difference
 
 Memory is not limited to one model family or task. It supports long-range perception and generation, preserves knowledge during continual learning, grounds retrieval in multimodal evidence, and helps embodied or personalized agents maintain state across long-horizon and multi-session interactions. We group these uses into eight application domains and their key subareas.
 
@@ -72,27 +73,21 @@ Memory is not limited to one model family or task. It supports long-range percep
 
 ---
 
-## :heart: Community Support
+## 🤝 Community Support
 
 We actively maintain this repository and incorporate new research as it emerges. If you have suggestions about our taxonomy, find any relevant papers we have missed, or notice that a listed preprint has been accepted by a conference or journal, we warmly welcome your contributions.
 
-You can [open an issue](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/issues/new) or [submit a pull request](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/pulls). Please use the following Markdown format when submitting a paper:
+Please [submit a pull request](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/pulls) using the following Markdown format:
 
 ```markdown
-- [Paper Title](paper-link) (Conference/Journal Year)
-```
-
-For preprints without a formal venue, please use:
-
-```markdown
-- [Paper Title](paper-link) (Year)
+- [Paper Title](paper-link) (Conference/Journal/Preprint Year)
 ```
 
 All contributions will be acknowledged in this repository. Thank you for helping us keep this survey comprehensive and up to date!
 
 ---
 
-## Contents
+## 📚 Contents
 - [Memory Mechanisms: 4D Taxonomy](#memory-mechanisms-4d-taxonomy)
   - [1. When: Temporal Scope](#1-when-temporal-scope)
   - [2. Where: Storage Location](#2-where-storage-location)
@@ -113,7 +108,7 @@ All contributions will be acknowledged in this repository. Thank you for helping
 
 ---
 
-## Memory Mechanisms: 4D Taxonomy
+## 🧠 Memory Mechanisms: 4D Taxonomy
 
 
 Memory mechanisms in Vision-Language Models can be characterized along four complementary dimensions:
@@ -461,7 +456,7 @@ Mechanisms that revise, replace, preserve, or selectively remove existing memory
 </details>
 
 ---
-## Application Areas
+## 🚀 Application Areas
 
 Memory enables VLMs to retain, retrieve, and reuse multimodal information across extended contexts and interactions. We organize representative applications into eight domains, covering long-video understanding and generation, image reasoning and description, continual learning, embodied AI, multimodal RAG, egocentric vision, personalized assistants, and virtual-environment interaction, where memory supports persistent reasoning, knowledge preservation, evidence grounding, and long-horizon decision-making.
 
@@ -841,7 +836,7 @@ Memory in Vision-Language Models
 
 ---
 
-## Benchmarks
+## 📊 Benchmarks
 
 ### Long Video
 
@@ -952,7 +947,7 @@ Memory in Vision-Language Models
 
 ---
 
-## Citation
+## 📝 Citation
 
 ```bibtex
 @article{xia2026memory,
@@ -965,6 +960,6 @@ Memory in Vision-Language Models
 
 ---
 
-## Contributing
+## 🙌 Contributing
 
 This repository was mainly created by Yuner Zhang (Upenn), under the guidance of Shao-Jun Xia. Main contributors include Yizhuo He, Jiashen Liu,  Yifan Jiang, Xiaoyang Chen, Liangxi Liu.
