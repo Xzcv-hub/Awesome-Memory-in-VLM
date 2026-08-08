@@ -10,35 +10,6 @@
 [![Xiaohongshu Mentions](https://img.shields.io/badge/Xiaohongshu-Mentions-red?logoColor=white)](http://xhslink.com/o/5f7VnlQzGzS)
 [![DOI](https://img.shields.io/badge/DOI-10.20944%2Fpreprints202607.1539.v1-blue)](https://doi.org/10.20944/preprints202607.1539.v1)
 
-<p align="center">
-  Shao-Jun Xia<sup>1</sup>&nbsp;&nbsp;
-  Yizhuo He<sup>2,3,*</sup>&nbsp;&nbsp;
-  Jiashen Liu<sup>4,*</sup>&nbsp;&nbsp;
-  Yuner Zhang<sup>5,*</sup>&nbsp;&nbsp;
-  Yifan Jiang<sup>6,&dagger;</sup>&nbsp;&nbsp;
-  Xiaoyang Chen<sup>7,&dagger;</sup>&nbsp;&nbsp;
-  Liangxi Liu<sup>8</sup>&nbsp;&nbsp;
-  Chenwen Luo<sup>9</sup>&nbsp;&nbsp;
-  Jinbao Wang<sup>9,&dagger;</sup>
-</p>
-
-<p align="center">
-  <sup>1</sup>Duke University&nbsp;&nbsp;
-  <sup>2</sup>Google&nbsp;&nbsp;
-  <sup>3</sup>Carnegie Mellon University&nbsp;&nbsp;
-  <sup>4</sup>University of Warwick&nbsp;&nbsp;
-  <sup>5</sup>University of Pennsylvania<br>
-  <sup>6</sup>University of Southern California&nbsp;&nbsp;
-  <sup>7</sup>University of North Carolina at Chapel Hill&nbsp;&nbsp;
-  <sup>8</sup>Northeastern University&nbsp;&nbsp;
-  <sup>9</sup>Shenzhen University
-</p>
-
-<p align="center">
-  <sup>*</sup>Equal contribution&nbsp;&nbsp;&nbsp;
-  <sup>&dagger;</sup>Corresponding authors
-</p>
-
 > **Our paper is in preprint:** *Memory in Vision-Language Models: Taxonomy, Mechanisms, and Applications*
 > 
 > <small><em>The preprint has been online for about a week and has received nearly 300 downloads. We are currently working on version 2.0. If we've missed any relevant papers, we'd love to hear from you. We're also rolling out a dynamic update mechanism. Thank you all for sharing it and starring the project!</em></small>
