@@ -44,7 +44,7 @@ Memory in VLMs has evolved from bounded context and recurrent states toward comp
   <img src="img/timeline.png" alt="Timeline of representative memory-enabled vision-language models" width="100%">
 </p>
 
-<p align="center"><em>Representative milestones in memory-enabled VLMs across the When, Where, What, and How dimensions.</em></p>
+<p align="center"><em>Representative milestones in memory-enabled VLMs across the When, Where, What, and How dimensions. <a href="img/Timeline.pdf">View the high-resolution PDF</a>.</em></p>
 
 ## 🌐 Where Memory Makes a Difference
 
@@ -54,7 +54,7 @@ Memory is not limited to one model family or task. It supports long-range percep
   <img src="img/application_areas.png" alt="Major application domains of memory in vision-language models" width="55%">
 </p>
 
-<p align="center"><em>Application landscape of memory-enhanced vision-language models.</em></p>
+<p align="center"><em>Application landscape of memory-enhanced vision-language models. <a href="img/Application.pdf">View the high-resolution PDF</a>.</em></p>
 
 
 ---
@@ -91,6 +91,8 @@ Memory mechanisms in Vision-Language Models can be characterized along four comp
 - **How — Memory Operations:** how memory is written, consolidated, retrieved, updated, and forgotten.
 
 > **Note:** These dimensions are orthogonal. A single method may therefore appear in multiple categories.
+
+> **Figure resource:** [Memory Architecture Archetypes (high-resolution PDF)](img/Archetypes.pdf)
 
 ```
 
