@@ -46,6 +46,16 @@ Memory in VLMs has evolved from bounded context and recurrent states toward comp
 
 <p align="center"><em>Representative milestones in memory-enabled VLMs across the When, Where, What, and How dimensions. <a href="img/Timeline.pdf">View the high-resolution PDF</a>.</em></p>
 
+## 🧩 Eight Ways VLMs Remember
+
+The four taxonomy dimensions are most informative when considered together. In practice, a task first determines how long information must remain available; that temporal requirement then constrains where memory can live, what it can represent, and which operations it must support. Across existing systems, these coupled choices recur as eight practical memory archetypes, spanning long-context and compressed visual memory, recurrent states, retrieval, KV caches, session histories, parametric knowledge, and lifelong agent memory.
+
+<p align="center">
+  <a href="img/Archetypes.pdf"><img src="img/archetypes.svg" alt="Eight representative memory archetypes in vision-language models" width="100%"></a>
+</p>
+
+<p align="center"><em>Eight recurring VLM memory system designs, each characterized by its When, Where, What, and How choices. <a href="img/Archetypes.pdf">View the high-resolution PDF</a>.</em></p>
+
 ## 🌐 Where Memory Makes a Difference
 
 Memory is not limited to one model family or task. It supports long-range perception and generation, preserves knowledge during continual learning, grounds retrieval in multimodal evidence, and helps embodied or personalized agents maintain state across long-horizon and multi-session interactions. We group these uses into eight application domains and their key subareas.
@@ -91,8 +101,6 @@ Memory mechanisms in Vision-Language Models can be characterized along four comp
 - **How — Memory Operations:** how memory is written, consolidated, retrieved, updated, and forgotten.
 
 > **Note:** These dimensions are orthogonal. A single method may therefore appear in multiple categories.
-
-> **Figure resource:** [Memory Architecture Archetypes (high-resolution PDF)](img/Archetypes.pdf)
 
 ```
 
