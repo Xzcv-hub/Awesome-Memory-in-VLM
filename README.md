@@ -56,6 +56,7 @@ Please [submit a pull request](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM
 ```
 
 All contributions will be acknowledged in this repository. Thank you for helping us keep this survey comprehensive and up to date!
+
 ---
 
 ## 🧭 Survey at a Glance
