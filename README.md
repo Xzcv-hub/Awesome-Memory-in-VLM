@@ -33,6 +33,7 @@
 
 ## Memory Mechanisms: 4D Taxonomy
 
+
 Memory mechanisms in Vision-Language Models can be characterized along four complementary dimensions:
 
 - **When — Temporal Scope:** how long memory remains accessible.
@@ -64,53 +65,6 @@ Memory in Vision-Language Models
     └── 4.4 Memory Updating & Forgetting
 ```
 ---
-## Application Areas
-
-```
-Memory in Vision-Language Models
-├── 1. Long Video Understanding & Generation
-│   ├── 1.1 Offline Long-Video Understanding
-│   │   ├── Long-form Video QA
-│   │   ├── Event Understanding
-│   │   └── Temporal Grounding
-│   ├── 1.2 Online (Streaming) Video Understanding
-│   ├── 1.3 Reasoning over Long Videos
-│   ├── 1.4 Long Video Generation
-│   └── 1.5 Long Video Prediction / World Models
-├── 2. Image Reasoning & Description
-│   ├── 2.1 Multi-image Reasoning
-│   └── 2.2 Image Captioning
-├── 3. Continual Learning
-│   ├── 3.1 Incremental Recognition
-│   ├── 3.2 Continual Knowledge Updating
-│   └── 3.3 Continual Task Adaptation
-├── 4. Embodied AI
-│   ├── 4.1 Vision-Language Navigation
-│   │   ├── Instruction-following & Spatial Memory
-│   │   ├── Dialogue-based Navigation
-│   │   └── Long-horizon & Persistent Navigation
-│   ├── 4.2 Vision-Language Action
-│   └── 4.3 Autonomous Driving
-├── 5. Multimodal RAG
-│   ├── 5.1 Knowledge-Augmented Visual QA
-│   ├── 5.2 Multimodal Document Retrieval & QA
-│   └── 5.3 Domain-Specific & Scenario-Grounded RAG
-├── 6. Egocentric Vision
-│   ├── 6.1 Episodic Retrieval
-│   └── 6.2 Wearable Assistants
-├── 7. Personalized Assistants
-│   ├── 7.1 Concept Personalization
-│   └── 7.2 Conversational Memory
-└── 8. Virtual-Environment Interaction
-    ├── 8.1 Open-World Agents
-    └── 8.2 GUI Agents
-        ├── Web agents
-        ├── Mobile agents
-        └── Computer agents
-```
----
-## Memory Mechanisms: 4D Taxonomy
-
 ### 1. When: Temporal Scope
 
 <details>
@@ -425,7 +379,49 @@ Mechanisms that revise, replace, preserve, or selectively remove existing memory
 </details>
 
 ---
-## Application Papers
+## Application Area
+```
+Memory in Vision-Language Models
+├── 1. Long Video Understanding & Generation
+│   ├── 1.1 Offline Long-Video Understanding
+│   │   ├── Long-form Video QA
+│   │   ├── Event Understanding
+│   │   └── Temporal Grounding
+│   ├── 1.2 Online (Streaming) Video Understanding
+│   ├── 1.3 Reasoning over Long Videos
+│   ├── 1.4 Long Video Generation
+│   └── 1.5 Long Video Prediction / World Models
+├── 2. Image Reasoning & Description
+│   ├── 2.1 Multi-image Reasoning
+│   └── 2.2 Image Captioning
+├── 3. Continual Learning
+│   ├── 3.1 Incremental Recognition
+│   ├── 3.2 Continual Knowledge Updating
+│   └── 3.3 Continual Task Adaptation
+├── 4. Embodied AI
+│   ├── 4.1 Vision-Language Navigation
+│   │   ├── Instruction-following & Spatial Memory
+│   │   ├── Dialogue-based Navigation
+│   │   └── Long-horizon & Persistent Navigation
+│   ├── 4.2 Vision-Language Action
+│   └── 4.3 Autonomous Driving
+├── 5. Multimodal RAG
+│   ├── 5.1 Knowledge-Augmented Visual QA
+│   ├── 5.2 Multimodal Document Retrieval & QA
+│   └── 5.3 Domain-Specific & Scenario-Grounded RAG
+├── 6. Egocentric Vision
+│   ├── 6.1 Episodic Retrieval
+│   └── 6.2 Wearable Assistants
+├── 7. Personalized Assistants
+│   ├── 7.1 Concept Personalization
+│   └── 7.2 Conversational Memory
+└── 8. Virtual-Environment Interaction
+    ├── 8.1 Open-World Agents
+    └── 8.2 GUI Agents
+        ├── Web agents
+        ├── Mobile agents
+        └── Computer agents
+```
 
 ### 1. Long Video Understanding & Generation
 
@@ -731,22 +727,31 @@ Mechanisms that revise, replace, preserve, or selectively remove existing memory
 
 #### 8.2 GUI Agents
 
-##### Web Agents
+<details>
+<summary><b>Web Agents</b></summary>
 
 - [WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models](https://arxiv.org/abs/2401.13919)
 - [VLM Agents Generate Their Own Memories: Distilling Experience into Embodied Programs of Thought](https://arxiv.org/abs/2406.14596)
 - [VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks](https://arxiv.org/abs/2401.13649)
 - [VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks](https://arxiv.org/abs/2410.19100)
 
-##### Mobile Agents
+</details>
+
+<details>
+<summary><b>Mobile Agents</b></summary>
 
 - [Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration](https://arxiv.org/abs/2406.01014)
 - [Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks](https://arxiv.org/abs/2501.11733)
 
-##### Computer Agents
+</details>
+
+<details>
+<summary><b>Computer Agents</b></summary>
 
 - [Agent S: An Open Agentic Framework that Uses Computers Like a Human](https://arxiv.org/abs/2410.08164)
 - [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326)
+
+</details>
 
 ---
 
