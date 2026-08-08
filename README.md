@@ -45,6 +45,19 @@
 
 ---
 
+## 🤝 Community Support
+
+We actively maintain this repository and incorporate new research as it emerges. If you have suggestions about our taxonomy, find any relevant papers we have missed, or notice that a listed preprint has been accepted by a conference or journal, we warmly welcome your contributions.
+
+Please [submit a pull request](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/pulls) using the following Markdown format:
+
+```markdown
+- [Paper Title](paper-link) (Conference/Journal/Preprint Year)
+```
+
+All contributions will be acknowledged in this repository. Thank you for helping us keep this survey comprehensive and up to date!
+---
+
 ## 🧭 Survey at a Glance
 
 Most vision-language models still process each prompt, clip, or interaction as an isolated episode. Without an explicit way to preserve and reuse prior multimodal information, they struggle with temporal coherence, accumulated knowledge, and reasoning that extends beyond a finite context window. This survey studies how memory turns VLMs from largely stateless predictors into systems that can retain, retrieve, revise, and reuse experience over time.
@@ -71,19 +84,6 @@ Memory is not limited to one model family or task. It supports long-range percep
 
 <p align="center"><em>Application landscape of memory-enhanced vision-language models.</em></p>
 
----
-
-## 🤝 Community Support
-
-We actively maintain this repository and incorporate new research as it emerges. If you have suggestions about our taxonomy, find any relevant papers we have missed, or notice that a listed preprint has been accepted by a conference or journal, we warmly welcome your contributions.
-
-Please [submit a pull request](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/pulls) using the following Markdown format:
-
-```markdown
-- [Paper Title](paper-link) (Conference/Journal/Preprint Year)
-```
-
-All contributions will be acknowledged in this repository. Thank you for helping us keep this survey comprehensive and up to date!
 
 ---
 
