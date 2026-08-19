@@ -12,7 +12,7 @@
 
 > **Our paper is in preprint:** *Memory in Vision-Language Models: Taxonomy, Mechanisms, and Applications*
 > 
-> <small><em>The preprint has been online for about a week and has received nearly 400 downloads🔥. We are currently working on version 2.0. If we've missed any relevant papers, we'd love to hear from you. We're also rolling out a dynamic update mechanism. Thank you all for sharing it and starring the project!</em></small>
+> <small><em>The preprint has been online for about two weeks and has received nearly 500 downloads🔥. We are currently working on version 2.0. If we've missed any relevant papers, we'd love to hear from you. We're also rolling out a dynamic update mechanism. Thank you all for sharing it and starring the project!</em></small>
 
 ---
 
