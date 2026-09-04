@@ -946,4 +946,4 @@ Memory in Vision-Language Models
 
 ## 🙌 Contributing
 
-This repository was mainly created by Yuner Zhang (Upenn), under the guidance of Shao-Jun Xia. Main contributors include Yizhuo He, Jiashen Liu,  Yifan Jiang, Xiaoyang Chen, Liangxi Liu.
+This repository was mainly created by Yuner Zhang (Upenn), under the guidance of Shao-Jun Xia. Main contributors include Yizhuo He (Google), Jiashen Liu,  Yifan Jiang, Xiaoyang Chen, Liangxi Liu.
