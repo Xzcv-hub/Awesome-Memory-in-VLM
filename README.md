@@ -8,7 +8,7 @@
 [![Papers](https://img.shields.io/badge/Papers-350%2B-green)](#paper-list)
 [![Version](https://img.shields.io/badge/Version-v2.0-orange)](https://github.com/Xzcv-hub/Awesome-Memory-in-VLM/releases)
 [![Xiaohongshu Mentions](https://img.shields.io/badge/Xiaohongshu-Mentions-red?logoColor=white)](http://xhslink.com/o/5f7VnlQzGzS)
-[![DOI](https://img.shields.io/badge/DOI-10.20944%2Fpreprints202607.1539.v2-blue)](https://doi.org/10.20944/preprints202607.1539.v2)
+[![DOI](https://img.shields.io/badge/DOI-10.20944%2Fpreprints202607.1539.v2-blue)](https://www.preprints.org/manuscript/202607.1539)
 
 > **Our paper is in preprint:** *Memory in Vision-Language Models: Taxonomy, Mechanisms, and Applications*
 > 
