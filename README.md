@@ -863,6 +863,7 @@ Memory in Vision-Language Models
 
 | Paper | Link |
 |---|---|
+| EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks | [arXiv](https://arxiv.org/abs/2609.28236) |
 | FindingDory: A Benchmark to Evaluate Memory in Embodied Agents | [arXiv](https://arxiv.org/abs/2506.15635) |
 | Explore with Long-term Memory: A Benchmark and Multimodal LLM-based Reinforcement Learning Framework for Embodied Exploration | [arXiv](https://arxiv.org/abs/2601.10744) |
 | 3DLLM-Mem: Long-Term Spatial-Temporal Memory for Embodied Spatial Reasoning and Actions | [arXiv](https://arxiv.org/abs/2505.22657) |
